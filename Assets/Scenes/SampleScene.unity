@@ -133,15 +133,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -23.436865
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.299999
+      value: 11.046633
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -181,6 +181,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1217533}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1217535 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1217533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &5751740
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,15 +476,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.299999
+      value: -12.397307
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2
+      value: 23.734337
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -513,6 +524,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 63489759}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &63489761 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 63489759}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &75148954
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,15 +670,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2
+      value: -12.72764
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2
+      value: 28.624195
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -696,6 +718,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 94481124}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &94481126 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 94481124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &101262223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -710,15 +743,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.6499996
+      value: -13.365504
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2
+      value: 31.271221
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -758,6 +791,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 101262223}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &101262225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 101262223}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &103854763
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,15 +996,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: -50.543858
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.55
+      value: 28.851828
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1000,6 +1044,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 142287350}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &142287352 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 142287350}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &148154070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1014,15 +1069,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -21.067785
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.75
+      value: 10.503694
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1062,6 +1117,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 148154070}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &148154072 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 148154070}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &149085443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,7 +1137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 149085445}
-  - component: {fileID: 149085444}
+  - component: {fileID: 149085446}
   m_Layer: 0
   m_Name: Goose Game Board
   m_TagString: Untagged
@@ -1079,73 +1145,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &149085444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149085443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3b91d53fd04e86408b8b0d5740488b0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  nombreCases: 50
-  tiles:
-  - {fileID: 157340990}
-  - {fileID: 1639864286}
-  - {fileID: 1344088912}
-  - {fileID: 1101269360}
-  - {fileID: 1119178881}
-  - {fileID: 1064426599}
-  - {fileID: 1958519432}
-  - {fileID: 1955521414}
-  - {fileID: 631968344}
-  - {fileID: 1479702164}
-  - {fileID: 1826463232}
-  - {fileID: 142287352}
-  - {fileID: 259937115}
-  - {fileID: 456523228}
-  - {fileID: 767111018}
-  - {fileID: 1548445987}
-  - {fileID: 1787812361}
-  - {fileID: 995212666}
-  - {fileID: 1224162960}
-  - {fileID: 710120509}
-  - {fileID: 1886662508}
-  - {fileID: 275539769}
-  - {fileID: 336513288}
-  - {fileID: 897445913}
-  - {fileID: 426717940}
-  - {fileID: 674597484}
-  - {fileID: 1652061525}
-  - {fileID: 906188713}
-  - {fileID: 2035877466}
-  - {fileID: 1906795524}
-  - {fileID: 1135797169}
-  - {fileID: 101262225}
-  - {fileID: 94481126}
-  - {fileID: 924889333}
-  - {fileID: 63489761}
-  - {fileID: 1711065855}
-  - {fileID: 1489854414}
-  - {fileID: 1255133825}
-  - {fileID: 1728068193}
-  - {fileID: 1939460780}
-  - {fileID: 229897328}
-  - {fileID: 148154072}
-  - {fileID: 1217535}
-  - {fileID: 420277011}
-  - {fileID: 1957575045}
-  - {fileID: 252771268}
-  - {fileID: 707163187}
-  - {fileID: 1347924758}
-  - {fileID: 1521761847}
-  - {fileID: 1752056328}
-  prefabCase: {fileID: 100100000, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
-  ecartCases: {x: 1.5, y: 0, z: 0}
-  hauteurPion: 0.52
 --- !u!4 &149085445
 Transform:
   m_ObjectHideFlags: 0
@@ -1211,6 +1210,70 @@ Transform:
   - {fileID: 1752056329}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &149085446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149085443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2640239e72939fd459a4b5992aed0fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Plateau
+  tiles:
+  - {fileID: 157340990}
+  - {fileID: 1639864286}
+  - {fileID: 1344088912}
+  - {fileID: 1101269360}
+  - {fileID: 1119178881}
+  - {fileID: 1064426599}
+  - {fileID: 1958519432}
+  - {fileID: 1955521414}
+  - {fileID: 631968344}
+  - {fileID: 1479702164}
+  - {fileID: 1826463232}
+  - {fileID: 142287352}
+  - {fileID: 259937115}
+  - {fileID: 456523228}
+  - {fileID: 767111018}
+  - {fileID: 1548445987}
+  - {fileID: 1787812361}
+  - {fileID: 995212666}
+  - {fileID: 1224162960}
+  - {fileID: 710120509}
+  - {fileID: 1886662508}
+  - {fileID: 275539769}
+  - {fileID: 336513288}
+  - {fileID: 897445913}
+  - {fileID: 426717940}
+  - {fileID: 674597484}
+  - {fileID: 1652061525}
+  - {fileID: 906188713}
+  - {fileID: 2035877466}
+  - {fileID: 1906795524}
+  - {fileID: 1135797169}
+  - {fileID: 101262225}
+  - {fileID: 94481126}
+  - {fileID: 924889333}
+  - {fileID: 63489761}
+  - {fileID: 1711065855}
+  - {fileID: 1489854414}
+  - {fileID: 1255133825}
+  - {fileID: 1728068193}
+  - {fileID: 1939460780}
+  - {fileID: 229897328}
+  - {fileID: 148154072}
+  - {fileID: 1217535}
+  - {fileID: 420277011}
+  - {fileID: 1957575045}
+  - {fileID: 252771268}
+  - {fileID: 707163187}
+  - {fileID: 1347924758}
+  - {fileID: 1521761847}
+  - {fileID: 1752056328}
+  hauteurPion: 0.52
 --- !u!1001 &157340988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1229,15 +1292,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3d0eb5529eff1174886294ddbe02f30d, type: 2}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -42.01299
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 4.9304247
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1277,6 +1340,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 157340988}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &157340990 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 157340988}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &173006981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2750,15 +2824,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.55
+      value: -18.729305
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.75
+      value: 11.177077
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2798,6 +2872,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 229897326}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &229897328 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 229897326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &240257636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,15 +2987,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.6499996
+      value: -30.76395
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.299999
+      value: 12.90201
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2950,6 +3035,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 252771266}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &252771268 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 252771266}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &258425041
 GameObject:
   m_ObjectHideFlags: 0
@@ -3054,15 +3150,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.55
+      value: -49.655823
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.55
+      value: 30.82783
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3102,6 +3198,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 259937113}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &259937115 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 259937113}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &263641594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3206,15 +3313,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.299999
+      value: -32.909958
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6499996
+      value: 42.96692
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3254,6 +3361,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 275539767}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &275539769 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 275539767}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &286059893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3446,6 +3564,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3495,7 +3614,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 11
   m_Depth: -1
   m_CullingMask:
@@ -3509,7 +3628,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &330585546
@@ -3520,8 +3639,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5661364, y: 0, z: 0, w: 0.82431155}
-  m_LocalPosition: {x: 4.6499996, y: 26, z: -15.424999}
+  m_LocalRotation: {x: 0.1305262, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: -42.01299, y: 19.706, z: 0.27173}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3571,6 +3690,24 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64acfe5d6f5e2ba458745f7c5df21c1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraOrbitPion
+  cible: {fileID: 853581632}
+  hauteurCible: 0.8
+  vitesseRotation: 90
+  inclinaisonMinimum: 10
+  inclinaisonMaximum: 60
+  distanceCamera: 7
 --- !u!1001 &336513286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3587,21 +3724,17 @@ PrefabInstance:
       propertyPath: effet
       value: 
       objectReference: {fileID: 11400000, guid: cbdf4d7fd3b21a84087549e684b3a500, type: 2}
-    - target: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
-      propertyPath: effet
-      value: 
-      objectReference: {fileID: 11400000, guid: cbdf4d7fd3b21a84087549e684b3a500, type: 2}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: -30.715067
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6499996
+      value: 42.366493
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3641,6 +3774,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 336513286}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &336513288 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 336513286}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &349028684
 GameObject:
   m_ObjectHideFlags: 0
@@ -4322,15 +4466,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.55
+      value: -26.62395
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.299999
+      value: 10.77201
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4370,6 +4514,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 420277009}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &420277011 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 420277009}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &426717938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4384,15 +4539,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.6499996
+      value: -26.204773
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6499996
+      value: 41.783424
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4432,6 +4587,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 426717938}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &426717940 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 426717938}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &455288362
 GameObject:
   m_ObjectHideFlags: 0
@@ -4536,15 +4702,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -48.52067
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.55
+      value: 32.932796
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4584,6 +4750,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 456523226}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &456523228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 456523226}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &471292258
 GameObject:
   m_ObjectHideFlags: 0
@@ -5138,15 +5315,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: -50.982616
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.55
+      value: 21.501995
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5186,6 +5363,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 631968342}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &631968344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 631968342}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &632402693
 GameObject:
   m_ObjectHideFlags: 0
@@ -5380,15 +5568,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: -24.03315
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6499996
+      value: 40.78169
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5428,6 +5616,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 674597482}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &674597484 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 674597482}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &688098308
 GameObject:
   m_ObjectHideFlags: 0
@@ -5622,15 +5821,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2
+      value: -32.15395
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.299999
+      value: 14.16201
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5670,6 +5869,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 707163185}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &707163187 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 707163185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &708185813
 GameObject:
   m_ObjectHideFlags: 0
@@ -5774,15 +5984,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: -38.313072
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1
+      value: 42.48165
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5822,6 +6032,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 710120507}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &710120509 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 710120507}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &728474545
 GameObject:
   m_ObjectHideFlags: 0
@@ -6018,21 +6239,17 @@ PrefabInstance:
       propertyPath: effet
       value: 
       objectReference: {fileID: 11400000, guid: 94ebe99ccdd0621409afc92a5eeef4b8, type: 2}
-    - target: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
-      propertyPath: effet
-      value: 
-      objectReference: {fileID: 11400000, guid: 94ebe99ccdd0621409afc92a5eeef4b8, type: 2}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -47.101574
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1
+      value: 35.25655
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6072,6 +6289,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 767111016}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &767111018 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 767111016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &797405777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6407,10 +6635,11 @@ Transform:
   m_GameObject: {fileID: 853581629}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -42.01299, y: 1.52, z: 4.9304247}
   m_LocalScale: {x: 0.58, y: 0.72, z: 0.58}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1881167617}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &853581633
@@ -6484,15 +6713,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2
+      value: -28.239998
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6499996
+      value: 42.63
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6532,6 +6761,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 897445911}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &897445913 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 897445911}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &906188711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6546,15 +6786,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -19.246243
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6499996
+      value: 38.229366
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6594,6 +6834,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 906188711}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &906188713 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 906188711}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &924889331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6608,15 +6859,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: -12.115607
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2
+      value: 25.992342
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6656,6 +6907,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 924889331}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &924889333 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 924889331}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &938900095
 GameObject:
   m_ObjectHideFlags: 0
@@ -6940,15 +7202,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.6499996
+      value: -42.60941
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1
+      value: 41.090336
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6988,6 +7250,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 995212664}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &995212666 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 995212664}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1003543366
 GameObject:
   m_ObjectHideFlags: 0
@@ -7219,7 +7492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Case : 0'
+  m_Text: 'Case : 1'
 --- !u!222 &1017576908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7261,15 +7534,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: -50.16299
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 14.340425
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7309,6 +7582,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1064426597}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1064426599 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1064426597}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1081505190
 GameObject:
   m_ObjectHideFlags: 0
@@ -7413,15 +7697,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.6499996
+      value: -47.51299
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10.480425
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7461,6 +7745,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1101269358}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1101269360 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1101269358}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1107553878
 GameObject:
   m_ObjectHideFlags: 0
@@ -7582,15 +7877,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2
+      value: -48.41299
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 12.570424
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7630,6 +7925,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1119178879}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1119178881 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1119178879}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1135797167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7644,15 +7950,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: -14.049693
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2
+      value: 33.56279
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7692,6 +7998,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1135797167}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1135797169 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1135797167}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1209539160
 GameObject:
   m_ObjectHideFlags: 0
@@ -7796,15 +8113,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2
+      value: -40.678726
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1
+      value: 42.1308
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7844,6 +8161,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1224162958}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1224162960 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1224162958}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1255133823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7858,15 +8186,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2
+      value: -13.941373
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.75
+      value: 17.077724
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7906,6 +8234,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1255133823}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1255133825 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1255133823}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1275848671
 GameObject:
   m_ObjectHideFlags: 0
@@ -8269,15 +8608,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: -45.65299
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 8.520425
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8317,6 +8656,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1344088910}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1344088912 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1344088910}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1347924756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8331,15 +8681,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: -33.531628
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.299999
+      value: 15.989139
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8379,6 +8729,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1347924756}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1347924758 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1347924756}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1360020255
 GameObject:
   m_ObjectHideFlags: 0
@@ -9032,15 +9393,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2
+      value: -51.091595
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.55
+      value: 24.201864
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9080,6 +9441,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1479702162}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1479702164 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1479702162}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1489854412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9094,15 +9466,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: -12.75454
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.75
+      value: 19.15398
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9142,6 +9514,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1489854412}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1489854414 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1489854412}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1506342250
 GameObject:
   m_ObjectHideFlags: 0
@@ -9413,15 +9796,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.299999
+      value: -34.25495
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.299999
+      value: 17.64101
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9461,6 +9844,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1521761845}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1521761847 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1521761845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1548445985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9475,15 +9869,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.55
+      value: -45.67491
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1
+      value: 37.5513
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9523,6 +9917,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1548445985}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1548445987 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1548445985}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1570202385
 GameObject:
   m_ObjectHideFlags: 0
@@ -10066,15 +10471,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.55
+      value: -43.76299
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 6.560424
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10114,6 +10519,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1639864284}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1639864286 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1639864284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1652061523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10128,15 +10544,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.55
+      value: -21.625454
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6499996
+      value: 39.51021
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10176,6 +10592,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1652061523}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1652061525 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1652061523}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1667670595
 GameObject:
   m_ObjectHideFlags: 0
@@ -10361,21 +10788,17 @@ PrefabInstance:
       propertyPath: effet
       value: 
       objectReference: {fileID: 11400000, guid: bf01456dfa229094c8d8ab68d37fd79c, type: 2}
-    - target: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
-      propertyPath: effet
-      value: 
-      objectReference: {fileID: 11400000, guid: bf01456dfa229094c8d8ab68d37fd79c, type: 2}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.299999
+      value: -11.78395
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.75
+      value: 21.32201
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10415,6 +10838,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1711065853}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1711065855 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1711065853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1728068191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10429,15 +10863,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.6499996
+      value: -15.417459
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.75
+      value: 14.789764
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10477,6 +10911,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1728068191}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1728068193 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1728068191}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1733874312
 GameObject:
   m_ObjectHideFlags: 0
@@ -10855,15 +11300,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3d0eb5529eff1174886294ddbe02f30d, type: 2}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.299999
+      value: -34.92
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.972
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.849999
+      value: 21.85
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10898,6 +11343,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+--- !u!114 &1752056328 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1752056327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!4 &1752056329 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
@@ -10917,15 +11373,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: -43.88
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1
+      value: 38.95
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10965,6 +11421,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1787812359}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1787812361 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1787812359}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1794893017
 GameObject:
   m_ObjectHideFlags: 0
@@ -10974,7 +11441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1794893019}
-  - component: {fileID: 1794893018}
+  - component: {fileID: 1794893020}
   m_Layer: 0
   m_Name: Dice
   m_TagString: Untagged
@@ -10982,7 +11449,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1794893018
+--- !u!4 &1794893019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794893017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6, y: 0.8, z: 1.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 40588575}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1794893020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10991,17 +11474,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1794893017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf8f29c596cb2a438013d0413bb731a, type: 3}
+  m_Script: {fileID: 11500000, guid: eb057df4522560b4dafdd16de4a05742, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::De
   modele: {fileID: 40588575}
-  valeurs:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
+  valeurs: 010000000200000003000000040000000500000006000000
   rotations:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 90}
@@ -11035,24 +11512,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  ancienneConfiguration: {fileID: 0}
-  ancienProvider: {fileID: 0}
---- !u!4 &1794893019
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794893017}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6, y: 0.8, z: 1.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 40588575}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1799573084
 GameObject:
   m_ObjectHideFlags: 0
@@ -11533,15 +11992,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.6499996
+      value: -50.392532
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.55
+      value: 26.367365
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11581,6 +12040,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1826463230}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1826463232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1826463230}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1843939164
 GameObject:
   m_ObjectHideFlags: 0
@@ -11851,6 +12321,96 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1814767257}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 117.646}
+--- !u!1 &1881167616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1881167617}
+  - component: {fileID: 1881167619}
+  - component: {fileID: 1881167618}
+  m_Layer: 0
+  m_Name: Totem-M.007
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1881167617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881167616}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.61306447, y: 0.3523521, z: 0.35235202, w: 0.61306447}
+  m_LocalPosition: {x: 0, y: 0.165, z: 0}
+  m_LocalScale: {x: 73.27996, y: 73.27996, z: 45.837032}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 853581632}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 59.775}
+--- !u!23 &1881167618
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881167616}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 3298774228875089036, guid: 2d9b17984af36654381a941a3d8a21da, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1881167619
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881167616}
+  m_Mesh: {fileID: -1776386205002029685, guid: 2d9b17984af36654381a941a3d8a21da, type: 3}
 --- !u!1001 &1886662506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11865,15 +12425,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.299999
+      value: -35.60215
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1
+      value: 42.735996
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11913,6 +12473,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1886662506}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1886662508 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1886662506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1888644239
 GameObject:
   m_ObjectHideFlags: 0
@@ -12197,15 +12768,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.55
+      value: -15.52299
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2
+      value: 35.390427
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12245,6 +12816,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1906795522}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1906795524 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1906795522}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1912735425
 GameObject:
   m_ObjectHideFlags: 0
@@ -12344,7 +12926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1914788100}
-  - component: {fileID: 1914788099}
+  - component: {fileID: 1914788101}
   m_Layer: 0
   m_Name: Game Flow
   m_TagString: Untagged
@@ -12352,33 +12934,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1914788099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914788098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff0f3c7369cfe9c42bd2d51684a09602, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  plateau: {fileID: 149085444}
-  de: {fileID: 1794893018}
-  pion: {fileID: 853581632}
-  boutonLancer: {fileID: 1414103410}
-  boutonRejouer: {fileID: 75148958}
-  texteResultat: {fileID: 851041996}
-  texteMessage: {fileID: 1667670596}
-  texteCase: {fileID: 1017576907}
-  panneauVictoire: {fileID: 1507229981}
-  dureeParCase: 0.16
-  pauseArrivee: 0.3
-  pauseResultat: 0.55
-  messageAttente: "À vous de jouer."
-  messageEffet: "Case spéciale : {0}"
-  messageVictoire: "Vous avez gagné !"
 --- !u!4 &1914788100
 Transform:
   m_ObjectHideFlags: 0
@@ -12394,6 +12949,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1914788101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914788098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6115ec2f6e271c341bc7cff21ebecfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JeuDeLOie
+  plateau: {fileID: 149085446}
+  de: {fileID: 1794893020}
+  pion: {fileID: 853581632}
+  boutonLancer: {fileID: 1414103410}
+  boutonRejouer: {fileID: 75148958}
+  texteResultat: {fileID: 851041996}
+  texteMessage: {fileID: 1667670596}
+  texteCase: {fileID: 1017576907}
+  panneauVictoire: {fileID: 1507229981}
+  dureeParCase: 0.16
+  pauseArrivee: 0.3
+  pauseResultat: 0.55
+  messageAttente: "\xC0 vous de jouer."
+  messageEffet: "Case sp\xE9ciale : {0}"
+  messageVictoire: "Vous avez gagn\xE9 !"
 --- !u!1001 &1939460778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12408,15 +12990,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: -16.90039
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.75
+      value: 12.530967
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12456,6 +13038,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1939460778}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1939460780 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1939460778}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1955521412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12470,15 +13063,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.299999
+      value: -50.85106
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.55
+      value: 18.782368
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12518,6 +13111,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1955521412}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1955521414 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1955521412}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1957575043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12532,15 +13136,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: -28.92395
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.299999
+      value: 11.69201
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12580,6 +13184,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1957575043}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1957575045 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1957575043}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1001 &1958519430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12596,21 +13211,17 @@ PrefabInstance:
       propertyPath: effet
       value: 
       objectReference: {fileID: 11400000, guid: 3b80df3d7508b3145a384d6abefca68b, type: 2}
-    - target: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
-      propertyPath: effet
-      value: 
-      objectReference: {fileID: 11400000, guid: 3b80df3d7508b3145a384d6abefca68b, type: 2}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.299999
+      value: -50.60751
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 16.403273
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12650,6 +13261,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 1958519430}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1958519432 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 1958519430}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &1989405195
 GameObject:
   m_ObjectHideFlags: 0
@@ -12844,15 +13466,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -17.738365
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2
+      value: 36.52513
       objectReference: {fileID: 0}
     - target: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12892,6 +13514,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831243473281328382, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
   m_PrefabInstance: {fileID: 2035877464}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2035877466 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5750817489680522399, guid: 93ac379e2cbc61942aa0a25b80c894d7, type: 3}
+  m_PrefabInstance: {fileID: 2035877464}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
 --- !u!1 &2119732254
 GameObject:
   m_ObjectHideFlags: 0
@@ -13065,7 +13698,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 220073960}
@@ -13076,3 +13708,4 @@ SceneRoots:
   - {fileID: 1107553883}
   - {fileID: 1360020258}
   - {fileID: 1814767257}
+  - {fileID: 330585546}
