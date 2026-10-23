@@ -1,14 +1,13 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 
 /// <summary>
-/// Une case du plateau. Son effet est facultatif et configuré dans l'Inspector.
+/// Une case du parcours avec un déplacement simple appliqué à l'arrivée du pion.
 /// </summary>
 public sealed class Case : MonoBehaviour
 {
-    // Conserve les effets enregistrés avant le renommage du champ « effect » en « effet ».
-    [SerializeField, FormerlySerializedAs("effect")] private EffetCase effet;
+    // 0 : aucun effet, positif : avancer, négatif : reculer.
+    [SerializeField] private int deplacement;
 
-    /// <summary>L'effet à appliquer quand le pion termine son déplacement sur cette case.</summary>
-    public EffetCase Effet => effet;
+    /// <summary>Déplacement appliqué une seule fois après l'arrivée sur cette case.</summary>
+    public int Deplacement => deplacement;
 }

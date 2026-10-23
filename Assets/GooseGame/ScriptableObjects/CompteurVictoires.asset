@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 477224de8223c954ea45fcd45f4e8ad2, type: 3}
-  m_Name: Retreat4
-  m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Effects.MoveRelativeEffectSO
-  effectName: Reculer de 4 cases
-  relativeOffset: -4
+  m_Script: {fileID: 11500000, guid: 4121619573485b84f9e3abd98e3ad4bd, type: 3}
+  m_Name: CompteurVictoires
+  m_EditorClassIdentifier: Assembly-CSharp::CompteurVictoires
+  totalVictoires: 0

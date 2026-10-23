@@ -1,16 +1,24 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 /// <summary>
-/// Fait avancer le jeu : lancer le dé, déplacer le pion, appliquer une case spéciale et vérifier la victoire.
+/// Orchestre les tours, le déplacement sur le parcours et la fin de partie.
 /// </summary>
 public sealed class JeuDeLOie : MonoBehaviour
 {
+    private const string TexteResultatInitial = "Résultat : —";
+    private const string PrefixeResultat = "Résultat : ";
+    private const string PrefixeCase = "Case : ";
+    private const string TexteVictoire = "Victoire !";
+    private const string TexteDeplacement = "Le pion avance…";
+
     [Header("Objets du jeu")]
-    [SerializeField] private Plateau plateau;
-    [SerializeField] private De de;
-    [SerializeField] private Transform pion;
+    [SerializeField] private List<Case> cases = new List<Case>();
+    [SerializeField, FormerlySerializedAs("pionComposant")] private Pion pion;
+    [SerializeField] private CompteurVictoires compteurVictoires;
 
     [Header("Interface")]
     [SerializeField] private Button boutonLancer;
@@ -18,175 +26,176 @@ public sealed class JeuDeLOie : MonoBehaviour
     [SerializeField] private Text texteResultat;
     [SerializeField] private Text texteMessage;
     [SerializeField] private Text texteCase;
+    [SerializeField] private Text texteCompteurVictoires;
     [SerializeField] private GameObject panneauVictoire;
 
-    [Header("Rythme du tour")]
-    [SerializeField, Min(0.01f)] private float dureeParCase = 0.16f;
-    [SerializeField, Min(0f)] private float pauseArrivee = 0.3f;
-    [SerializeField, Min(0f)] private float pauseResultat = 0.5f;
-
-    [Header("Messages affichés")]
+    [Header("Règles du tour")]
+    [SerializeField, Min(1)] private int valeurMin = 1;
+    [SerializeField, Min(1)] private int valeurMax = 6;
+    [SerializeField, Min(0f)] private float pauseAvantEffet = 0.5f;
     [SerializeField] private string messageAttente = "À vous de jouer.";
-    [SerializeField] private string messageEffet = "Case spéciale : {0}";
-    [SerializeField] private string messageVictoire = "Vous avez gagné !";
 
-    // L'index commence à zéro : la première case de la liste est le départ.
     private int indexActuel;
     private bool tourEnCours;
 
-    /// <summary>Prépare le plateau et relie les boutons à leurs méthodes.</summary>
+    /// <summary>Valide les références, relie les boutons et prépare une nouvelle partie.</summary>
     private void OnEnable()
     {
-        tourEnCours = false;
-        indexActuel = 0;
-
-        if (boutonLancer != null)
+        if (!ReferencesValides())
         {
-            boutonLancer.onClick.RemoveListener(LancerDe);
-            boutonLancer.onClick.AddListener(LancerDe);
-            boutonLancer.interactable = true;
+            enabled = false;
+            return;
         }
 
-        if (boutonRejouer != null)
-        {
-            boutonRejouer.onClick.RemoveListener(Rejouer);
-            boutonRejouer.onClick.AddListener(Rejouer);
-            boutonRejouer.gameObject.SetActive(false);
-        }
-
-        if (panneauVictoire != null)
-            panneauVictoire.SetActive(false);
-
-        PlacerPion();
-        if (texteMessage != null) texteMessage.text = messageAttente;
-        if (texteResultat != null) texteResultat.text = "Résultat : —";
+        boutonLancer.onClick.RemoveListener(LancerDe);
+        boutonLancer.onClick.AddListener(LancerDe);
+        boutonRejouer.onClick.RemoveListener(Rejouer);
+        boutonRejouer.onClick.AddListener(Rejouer);
+        Rejouer();
     }
 
     /// <summary>Retire les listeners pour éviter les abonnements en double.</summary>
     private void OnDisable()
     {
-        if (boutonLancer != null) boutonLancer.onClick.RemoveListener(LancerDe);
-        if (boutonRejouer != null) boutonRejouer.onClick.RemoveListener(Rejouer);
+        if (boutonLancer != null)
+            boutonLancer.onClick.RemoveListener(LancerDe);
+        if (boutonRejouer != null)
+            boutonRejouer.onClick.RemoveListener(Rejouer);
     }
 
-    /// <summary>Commence un tour si les objets indispensables sont bien assignés.</summary>
+    /// <summary>Commence un tour en tirant un entier dans l'intervalle configuré.</summary>
     public void LancerDe()
     {
-        if (tourEnCours || plateau == null || plateau.NombreCases < 2 || de == null || pion == null)
+        if (tourEnCours || !ReferencesValides())
             return;
 
         StartCoroutine(JouerTour());
     }
 
-    /// <summary>Remet le pion au départ pour permettre une nouvelle partie.</summary>
+    /// <summary>Arrête les déplacements en cours et replace le pion au départ sans effacer les victoires.</summary>
     public void Rejouer()
     {
-        if (tourEnCours || plateau == null || plateau.NombreCases == 0)
+        if (!ReferencesValides())
             return;
 
+        StopAllCoroutines();
+        tourEnCours = false;
         indexActuel = 0;
-        if (panneauVictoire != null) panneauVictoire.SetActive(false);
-        if (boutonRejouer != null) boutonRejouer.gameObject.SetActive(false);
-        if (boutonLancer != null) boutonLancer.interactable = true;
-        if (texteResultat != null) texteResultat.text = "Résultat : —";
-        if (texteMessage != null) texteMessage.text = messageAttente;
-        PlacerPion();
+        pion.Teleporter(cases[indexActuel].transform.position);
+        panneauVictoire.SetActive(false);
+        boutonRejouer.gameObject.SetActive(false);
+        boutonLancer.interactable = true;
+        texteResultat.text = TexteResultatInitial;
+        texteMessage.text = messageAttente;
+        MettreAJourTexteCase();
+        ActualiserCompteurVictoires();
     }
 
-    // Un seul tour : lancer, avancer, appliquer au plus un effet, puis vérifier la victoire.
+    private bool ReferencesValides()
+    {
+        if (pion == null)
+            return SignalerReferenceManquante("pion");
+        if (compteurVictoires == null)
+            return SignalerReferenceManquante("compteurVictoires");
+        if (boutonLancer == null)
+            return SignalerReferenceManquante("boutonLancer");
+        if (boutonRejouer == null)
+            return SignalerReferenceManquante("boutonRejouer");
+        if (texteResultat == null)
+            return SignalerReferenceManquante("texteResultat");
+        if (texteMessage == null)
+            return SignalerReferenceManquante("texteMessage");
+        if (texteCase == null)
+            return SignalerReferenceManquante("texteCase");
+        if (texteCompteurVictoires == null)
+            return SignalerReferenceManquante("texteCompteurVictoires");
+        if (panneauVictoire == null)
+            return SignalerReferenceManquante("panneauVictoire");
+        if (cases == null || cases.Count == 0)
+            return SignalerReferenceManquante("cases (la liste est vide)");
+        if (valeurMin < 1 || valeurMax < valeurMin)
+        {
+            Debug.LogError("JeuDeLOie : l'intervalle du tirage doit respecter 1 <= valeurMin <= valeurMax.", this);
+            return false;
+        }
+
+        for (int index = 0; index < cases.Count; index++)
+        {
+            if (cases[index] == null)
+            {
+                Debug.LogError("JeuDeLOie : la case à l'index " + index + " est nulle.", this);
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private bool SignalerReferenceManquante(string nomReference)
+    {
+        Debug.LogError("JeuDeLOie : la référence requise " + nomReference + " n'est pas assignée.", this);
+        return false;
+    }
+
     private IEnumerator JouerTour()
     {
         tourEnCours = true;
-        if (boutonLancer != null) boutonLancer.interactable = false;
-        if (texteMessage != null) texteMessage.text = "Le dé roule…";
+        boutonLancer.interactable = false;
+        texteMessage.text = TexteDeplacement;
 
-        yield return de.Lancer();
-        int resultat = de.DerniereValeur;
-        if (resultat <= 0)
+        int resultat = Random.Range(valeurMin, valeurMax + 1);
+        texteResultat.text = PrefixeResultat + resultat;
+        indexActuel = Mathf.Min(indexActuel + resultat, cases.Count - 1);
+        yield return PlacerPion();
+
+        if (pauseAvantEffet > 0f)
+            yield return new WaitForSeconds(pauseAvantEffet);
+
+        int indexApresEffet = Mathf.Clamp(indexActuel + cases[indexActuel].Deplacement, 0, cases.Count - 1);
+        if (indexApresEffet != indexActuel)
         {
-            TerminerTour(false);
-            yield break;
+            indexActuel = indexApresEffet;
+            yield return PlacerPion();
         }
 
-        if (texteResultat != null) texteResultat.text = "Résultat : " + resultat;
-        if (pauseResultat > 0f) yield return new WaitForSeconds(pauseResultat);
-
-        yield return DeplacerPion(resultat);
-        if (pauseArrivee > 0f) yield return new WaitForSeconds(pauseArrivee);
-
-        // On n'applique pas d'effet supplémentaire si le pion a déjà gagné.
-        if (indexActuel < plateau.NombreCases - 1)
-            yield return AppliquerEffet();
-
-        TerminerTour(indexActuel >= plateau.NombreCases - 1);
+        FinDeTour();
     }
 
-    // Une valeur positive avance, une valeur négative fait reculer.
-    private IEnumerator DeplacerPion(int nombreDeCases)
+    private Coroutine PlacerPion()
     {
-        int direction = nombreDeCases >= 0 ? 1 : -1;
-        int nombreDePas = Mathf.Abs(nombreDeCases);
+        MettreAJourTexteCase();
+        return pion.AllerVers(cases[indexActuel].transform.position);
+    }
 
-        for (int pas = 0; pas < nombreDePas; pas++)
+    private void MettreAJourTexteCase()
+    {
+        texteCase.text = PrefixeCase + (indexActuel + 1);
+    }
+
+    private void ActualiserCompteurVictoires()
+    {
+        texteCompteurVictoires.text = "Victoires : " + compteurVictoires.TotalVictoires;
+    }
+
+    private void FinDeTour()
+    {
+        bool victoire = indexActuel >= cases.Count - 1;
+        if (victoire)
         {
-            int prochainIndex = Mathf.Clamp(indexActuel + direction, 0, plateau.NombreCases - 1);
-            if (prochainIndex == indexActuel)
-                yield break;
-
-            Vector3 positionDepart = pion.position;
-            Vector3 positionArrivee = plateau.PositionCase(prochainIndex);
-            float tempsEcoule = 0f;
-            float duree = Mathf.Max(0.01f, dureeParCase);
-
-            while (tempsEcoule < duree)
-            {
-                tempsEcoule += Time.deltaTime;
-                float progression = Mathf.Clamp01(tempsEcoule / duree);
-                pion.position = Vector3.Lerp(positionDepart, positionArrivee, progression);
-                yield return null;
-            }
-
-            indexActuel = prochainIndex;
-            pion.position = positionArrivee;
-            if (texteCase != null) texteCase.text = "Case : " + (indexActuel + 1);
-
-            if (indexActuel == plateau.NombreCases - 1)
-                yield break;
-        }
-    }
-
-    // L'effet est une donnée simple : son nom et son déplacement viennent de l'asset de la case.
-    private IEnumerator AppliquerEffet()
-    {
-        Case caseArrivee = plateau.ObtenirCase(indexActuel);
-        if (caseArrivee == null || caseArrivee.Effet == null)
-            yield break;
-
-        if (texteMessage != null)
-            texteMessage.text = string.Format(messageEffet, caseArrivee.Effet.Nom);
-
-        yield return DeplacerPion(caseArrivee.Effet.Deplacement);
-    }
-
-    /// <summary>Replace le pion sur la case actuellement sélectionnée.</summary>
-    private void PlacerPion()
-    {
-        if (plateau == null || pion == null || plateau.NombreCases == 0)
+            compteurVictoires.Incrementer();
+            ActualiserCompteurVictoires();
+            texteMessage.text = TexteVictoire;
+            panneauVictoire.SetActive(true);
+            boutonRejouer.gameObject.SetActive(true);
+            boutonLancer.interactable = false;
+            tourEnCours = true;
             return;
+        }
 
-        indexActuel = Mathf.Clamp(indexActuel, 0, plateau.NombreCases - 1);
-        pion.position = plateau.PositionCase(indexActuel);
-        if (texteCase != null) texteCase.text = "Case : " + (indexActuel + 1);
-    }
-
-    // Réactive les commandes si la partie n'est pas terminée.
-    private void TerminerTour(bool victoire)
-    {
-        if (texteMessage != null)
-            texteMessage.text = victoire ? messageVictoire : messageAttente;
-        if (panneauVictoire != null) panneauVictoire.SetActive(victoire);
-        if (boutonRejouer != null) boutonRejouer.gameObject.SetActive(victoire);
-        if (boutonLancer != null) boutonLancer.interactable = !victoire;
+        texteMessage.text = messageAttente;
+        panneauVictoire.SetActive(false);
+        boutonRejouer.gameObject.SetActive(false);
+        boutonLancer.interactable = true;
         tourEnCours = false;
     }
 }

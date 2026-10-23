@@ -46,10 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b863957c1414f43be945bbb74567f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: GooseGame.Runtime::GooseGame.Board.Tile
-  index: 0
-  pawnAnchor: {fileID: 5209815575536156140}
-  effect: {fileID: 0}
-  presentationRenderer: {fileID: 5112379604654303219}
+  deplacement: 0
 --- !u!1 &2704586915545088867
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +113,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9c260f629e923dd499f778c2a640ee5f, type: 2}
+  - {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
